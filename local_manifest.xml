@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remove CM-specific repositories -->
-  <remove-project name="LineageOS/android_packages_apps_Updater" />
-
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" groups="pdk-cw-fs"/>
-
+  <!-- Common External Dependencies -->
   <project path="external/busybox" name="LineageOS/android_external_busybox" />
   <project path="external/stlport" name="LineageOS/android_external_stlport" />
 
+  <!-- Samsung Hardware Support -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
 
+  <!-- Samsung Applications -->
   <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" />
 
-  <!-- Samsung Galaxy S4 Exynos Repositories -->
+  <!-- Samsung Galaxy S4 (Exynos) Specific Repositories -->
   <project path="device/samsung/exynos5410-common" name="exynos5410/android_device_samsung_exynos5410-common" />
   <project path="device/samsung/ja3gxx" name="exynos5410/android_device_samsung_ja3gxx" />
-  <project path="device/samsung/ja3gchnduos" name="exynos5410/android_device_samsung_ja3gchnduos" />
-  <project path="device/samsung/ja3gduosctc" name="exynos5410/android_device_samsung_ja3gduosctc" />
-  <project path="device/samsung/jalteskt" name="exynos5410/android_device_samsung_jalteskt" />
-  <project path="device/samsung/jaltelgt" name="exynos5410/android_device_samsung_jaltelgt" />
   <project path="kernel/samsung/exynos5410" name="exynos5410/android_kernel_samsung_exynos5410" />
   <project path="vendor/samsung" name="exynos5410/proprietary_vendor_samsung" />
 
+  <!-- Samsung SLSI (System LSI) Components -->
   <project path="hardware/samsung_slsi-cm/exynos" name="LineageOS/android_hardware_samsung_slsi-cm_exynos" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" />
   <project path="hardware/samsung_slsi-cm/exynos5410" name="exynos5410/android_hardware_samsung_slsi-cm_exynos5410" />
   <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" />
 
 </manifest>
+
