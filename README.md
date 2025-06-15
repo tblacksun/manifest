@@ -36,6 +36,7 @@ cd system/core
 git am ../../device/samsung/exynos5410-common/patches/system_core/79ce3d6a96f3d381dc4db1aac45ccb788e1276ab.patch
 
 cd ../..
+git am recovery_size_partition.patch
 ```
 
 ## 🌍 Set Environment Variables

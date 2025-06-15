@@ -1,0 +1,5 @@
+--- a/device/samsung/exynos5410-common/BoardConfigCommon.mk
++++ b/device/samsung/exynos5410-common/BoardConfigCommon.mk
+@@ -1,6 +1,6 @@
+-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608
++BOARD_RECOVERYIMAGE_PARTITION_SIZE := 9000000
